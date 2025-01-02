@@ -1,60 +1,62 @@
-# 美益达影视 M3U8 广告过滤器
+# M3U8 Ad Filter for MeiYiDa Video
 
-## 简介
+[中文文档](./md/README_CN.md)
 
-这是一个用于过滤美益达影视网站视频播放中 M3U8 广告片段的油猴脚本。它可以自动识别和移除视频播放列表中的广告内容，提供更流畅的观影体验。
+## Introduction
 
-## 功能特点
+This is a Tampermonkey script designed to filter out advertisement segments from M3U8 playlists on the MeiYiDa video website. It automatically identifies and removes ad content from video playlists, providing a smoother viewing experience.
 
-- 自动拦截并过滤 M3U8 播放列表中的广告片段
-- 支持两种广告识别规则：
-  - 包含 `/video/` 路径的片段
-  - URL 长度为 35 字符的片段
-- 同时支持 Fetch 和 XHR 请求的拦截
-- 支持嵌套 M3U8 播放列表的处理
+## Features
 
-## 安装方法
+- Automatically intercepts and filters ads in M3U8 playlists
+- Supports two ad identification rules:
+  - Segments containing `/video/` path
+  - URLs with exactly 35 characters
+- Supports both Fetch and XHR request interception
+- Handles nested M3U8 playlists
 
-1. 首先安装油猴插件（Tampermonkey）
+## Installation
 
-   - [Chrome 版本](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
-   - [Firefox 版本](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/)
+1. First, install the Tampermonkey browser extension
 
-2. 点击下面的安装链接安装脚本：
-   [安装脚本](链接到你的脚本托管地址)
+   - [Chrome Version](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
+   - [Firefox Version](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/)
 
-## 使用说明
+2. Click the link below to install the script:
+   [Install Script](link-to-your-script-hosting)
 
-- 安装完成后，脚本会自动在美益达影视网站（mydys1.com）运行
-- 无需任何配置，即可自动过滤视频中的广告片段
-- 可以通过浏览器控制台查看脚本的运行日志
+## Usage
 
-## 技术细节
+- The script automatically runs on the MeiYiDa video website (mydys1.com)
+- No configuration needed - ads are filtered automatically
+- You can check the script's operation logs in the browser console
 
-- 使用 JavaScript 编写
-- 通过代理方式拦截网络请求
-- 支持的请求类型：
+## Technical Details
+
+- Written in JavaScript
+- Uses proxy method to intercept network requests
+- Supported request types:
   - Fetch API
   - XMLHttpRequest (XHR)
 
-## 兼容性
+## Compatibility
 
-- 网站：www.mydys1.com
-- 浏览器：支持现代浏览器（Chrome、Firefox、Edge 等）
-- 需要安装 Tampermonkey 或类似的用户脚本管理器
+- Website: www.mydys1.com
+- Browsers: Supports modern browsers (Chrome, Firefox, Edge, etc.)
+- Requires Tampermonkey or similar userscript manager
 
-## 更新日志
+## Changelog
 
-- 2025-01-02：初始版本发布
+- 2025-01-02: Initial release
 
-## 许可证
+## License
 
 MIT License
 
-## 贡献
+## Contributing
 
-欢迎提交 Issue 和 Pull Request 来改进这个脚本。
+Issues and Pull Requests are welcome to improve this script.
 
-## 免责声明
+## Disclaimer
 
-本脚本仅供学习交流使用，请勿用于商业用途。使用本脚本时请遵守相关法律法规。
+This script is for educational and personal use only. Commercial use is prohibited. Please comply with all relevant laws and regulations when using this script.
