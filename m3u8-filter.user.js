@@ -6,8 +6,8 @@
 // @author       Dust-Nian
 // @match        https://www.mydys1.com/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=mydys1.com
-// @updateURL    https://github.com/Dust-Nian/m3u8-filter-script/blob/main/m3u8-filter.user.js
-// @downloadURL  https://github.com/Dust-Nian/m3u8-filter-script/blob/main/m3u8-filter.user.js
+// @updateURL    https://raw.githubusercontent.com/Dust-Nian/m3u8-filter-script/main/m3u8-filter.user.js
+// @downloadURL  https://raw.githubusercontent.com/Dust-Nian/m3u8-filter-script/main/m3u8-filter.user.js
 // @run-at       document-start
 // @grant        GM_xmlhttpRequest
 // @grant        GM_log
